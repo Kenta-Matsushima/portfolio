@@ -22,7 +22,6 @@ function navClose(){
 
 
 
-
 /*---------- scroll ---------------------*/ 
 const targetEl = document.querySelectorAll('.animation-target');
 
