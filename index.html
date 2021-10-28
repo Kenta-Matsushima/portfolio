@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="row ">
+                <div class="humberger-btn" id="nav-open">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- nav -->
+    <nav class="nav-menu">
+        <div class="close-menu hover-in-shadow" id="nav-close">&times;</div>
+        <div class="nav-menu-inner">
+            <ul>
+                <li><a href="#" class="nav-menu-item">home</a></li>
+                <li><a href="#about" class="nav-menu-item">about</a></li>
+                <li><a href="#work" class="nav-menu-item">work</a></li>
+                <li><a href="#footer" class="nav-menu-item">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- home -->
+    
+    <section class="home-section section">
+        <div class="container">
+            <div class="row full-screen content-center">
+                <div class="home-text">
+                    <h1>I'm Kenta Matsushima</h1>
+                    <h2>from Meiji university</h2>
+                </div>
+
+            </div>
+        </div>
+        <canvas id="canvas"></canvas>
+    </section>
+    <!-- home end -->
+
+    <!-- about -->
+    <section class="about-section section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 class="animation">About me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-content">
+                    <div class="about-title animation">
+                        MATSUSHIMA
+                    </div>
+                    <div class="about-info animation">
+                        <p>
+                            明治大学商学部3年の松島健太です。
+                            <br>大学では経済学を中心に勉強していて、ゼミでは経済政策についての論文を執筆しています。
+                            <br>プログラミングを始めたのは、既存の食事管理アプリにはない機能が欲しい！と思ったのがきっかけです。
+                            <br>趣味は筋トレで、ボディビルの大会に出場するために日々トレーニングに励んでいます。
+                        </p>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="about-title animation">
+                        スキル・資格
+                    </div>
+                    <div class="about-info animation">
+                        <p>
+                            HTML / CSS / JavaScript / Ruby on Rails / Vue.js / R
+                            <br>現在は主にJavaScriptの勉強をしていて、作品を<a href="https://codepen.io/mic32766444">codepen</a>
+                            に投稿しています。
+                            <br>Rはゼミの論文作成時に分析のために使用しています。
+                            <br>
+                            <br>
+                            TOEIC 890 / IELTS 6.0
+                            <br>英語の勉強は毎日欠かさずに取り組むようにしています。
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+
+    <!-- works -->
+    <section class="work-section section" id="work">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 class="animation">Works</h2>
+                </div>
+            </div>
+
+            <div class="work-items">
+                <div class="work-item">
+                    <a href="https://kowalik.herokuapp.com/"><img src="img/work1.png" alt="" srcset=""></a>
+                    <p>所属しているゼミのホームページを作成しました。</p>
+                    <p>HTML / CSS / Vue.js / heroku</p>
+                </div>
+                <div class="work-item">
+                    <a href="https://prepresen.herokuapp.com/"><img src="img/work2.png" alt="" srcset=""></a>
+                    <p>大学生専用のプレゼン投稿サイトを作成しました。</p>
+                    <p>HTML / CSS / Ruby on Rails / heroku</p>
+                </div>
+                <div class="work-item">
+                    <a href="https://codepen.io/mic32766444"><img src="img/work3.png" alt="" srcset=""></a>
+                    <p>codepenで主にcanvasを用いた作品を投稿しています。</p>
+                    <p>HTML / CSS / JavaScript</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- works end -->
+    
+    <!-- footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <!-- <div class="row content-center"> -->
+                <div class="footer-items">
+                    <a href="https://twitter.com/mic0524mic"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/Kenta-Matsushima"><i class="fab fa-github"></i></a>
+                    <a href="https://codepen.io/mic32766444"><i class="fab fa-codepen"></i></a>
+                </div>
+            <!-- </div> -->
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="particle.js"></script>
+    <script src="scroll.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
